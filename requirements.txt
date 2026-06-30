@@ -1,0 +1,6 @@
+# Re-deriving every number from the released *.jsonl needs only the Python stdlib.
+# These are required only to RE-RUN generation/grading (which needs API keys; see .env.example).
+httpx>=0.27
+openai>=1.0
+requests>=2.31
+scipy>=1.11

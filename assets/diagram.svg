@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
+  <rect x="8" y="8" width="884" height="454" rx="20" fill="#ffffff" stroke="#e1e4e8"/>
+  <text x="450" y="60" text-anchor="middle" font-size="12.5" letter-spacing="2.5" font-weight="600" fill="#8a939b">ONE NAME · TWO SERVED SYSTEMS</text>
+
+  <!-- the one name -->
+  <rect x="299" y="84" width="302" height="40" rx="20" fill="#f6f8fa" stroke="#d0d7de"/>
+  <text x="450" y="110" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="16" fill="#1f2328">gemini-3.1-pro-preview</text>
+  <text x="450" y="150" text-anchor="middle" font-size="12.5" fill="#656d76">both routes return the identical version string <tspan font-family="ui-monospace,Menlo,monospace" fill="#57606a">-20260219</tspan></text>
+
+  <!-- connectors -->
+  <path d="M408 156 C 360 178, 300 182, 262 198" fill="none" stroke="#c9d1d9" stroke-width="1.6"/>
+  <path d="M492 156 C 540 178, 600 182, 638 198" fill="none" stroke="#c9d1d9" stroke-width="1.6"/>
+
+  <!-- left: OpenRouter -->
+  <text x="258" y="232" text-anchor="middle" font-size="14.5" font-weight="600" fill="#656d76">via OpenRouter</text>
+  <text x="258" y="324" text-anchor="middle" font-size="78" font-weight="700" fill="#bc4b2c">57%</text>
+  <text x="258" y="352" text-anchor="middle" font-size="13" fill="#8a939b">harmful compliance</text>
+
+  <!-- divider -->
+  <line x1="450" y1="220" x2="450" y2="346" stroke="#eef1f4" stroke-width="1.5"/>
+
+  <!-- right: Google -->
+  <text x="642" y="232" text-anchor="middle" font-size="14.5" font-weight="600" fill="#656d76">via Google direct</text>
+  <text x="642" y="324" text-anchor="middle" font-size="78" font-weight="700" fill="#6e7781">12%</text>
+  <text x="642" y="352" text-anchor="middle" font-size="13" fill="#8a939b">harmful compliance</text>
+
+  <!-- caption -->
+  <text x="450" y="408" text-anchor="middle" font-size="16" fill="#424a53">The name is not the system that answered.</text>
+  <text x="450" y="434" text-anchor="middle" font-size="11.5" fill="#8a939b">same 100 AdvBench prompts · same week · 11-grader harm panel</text>
+</svg>

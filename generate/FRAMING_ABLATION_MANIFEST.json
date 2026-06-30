@@ -1,0 +1,35 @@
+{
+  "experiment": "eval_awareness_framing_ablation_2x2",
+  "model": "google/gemini-3.1-pro-preview",
+  "temp": 1.0,
+  "max_tokens": 16000,
+  "sys_md5": "d0a64aa1f13e9dae7e9fb2c573b7fdfc",
+  "advbench_md5": "7cbae8e4ec2e9e09369f6da3bb8f1695",
+  "n_prompts": 100,
+  "reps": 3,
+  "arms": {
+    "vertex_train": {
+      "backend": "vertex",
+      "framing": "train",
+      "free": "true"
+    },
+    "vertex_private": {
+      "backend": "vertex",
+      "framing": "private",
+      "free": "false"
+    },
+    "aistudio_train": {
+      "backend": "aistudio",
+      "framing": "train",
+      "free": "true"
+    },
+    "aistudio_private": {
+      "backend": "aistudio",
+      "framing": "private",
+      "free": "false"
+    }
+  },
+  "n_total_calls": 1200,
+  "conc": 8,
+  "started_utc": "2026-06-23T23:14:09Z"
+}
